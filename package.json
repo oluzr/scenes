@@ -60,5 +60,8 @@
     "lint-staged": "^13.2.0",
     "prettier": "2.5.1",
     "turbo": "latest"
+  },
+  "dependencies": {
+    "motion": "^12.6.3"
   }
 }
