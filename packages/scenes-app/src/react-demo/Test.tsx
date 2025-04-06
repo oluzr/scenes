@@ -6,7 +6,8 @@ export function TestPage() {
   return (
     <SceneContextProvider timeRange={{ from: 'now-1h', to: 'now' }} withQueryController>
       <CustomVariable name="env" query="dev, test, prod" initialValue="dev">
-        <h4>Test page</h4>
+        <h4>Test2 page</h4>
+        <div className="grid-wrppaer"></div>
         <DevicesProgressPanel />
       </CustomVariable>
     </SceneContextProvider>

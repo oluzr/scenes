@@ -41,7 +41,7 @@ const DevicesProgressPanel = () => {
   const styles = useStyles2(getStyles);
   return (
     <div className={styles.mainWrapper} style={{ borderRadius: 8, color: '#fff' }}>
-      <h6 className={styles.mainTitle}>📊 Dashboard Downtime Panel</h6>
+      <h6 className={styles.mainTitle}>Dashboard Downtime Panel</h6>
       <div className={styles.devicesWrpper}>
         {devices.map((device) => (
           <div key={device.name} style={{ display: 'flex', alignItems: 'center', marginBottom: 12 }}>
@@ -85,10 +85,10 @@ const DevicesProgressPanel = () => {
 export default DevicesProgressPanel;
 
 const getStyles = (theme: GrafanaTheme2) => {
-  const adlFontSize = {
+ /*  const adlFontSize = {
     fontSize: theme.typography.size.sm,
   };
-
+ */
   return {
     mainWrapper: css({
       backgroundColor: '#111',
